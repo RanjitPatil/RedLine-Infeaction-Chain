@@ -66,7 +66,7 @@
 
 -	In this script it uses simple subtraction before converting the character to Ascii using chr.
 
-  **Reference Link -** https://isvbscriptdead.com/vbs-obfuscator/
+      **Reference Link -** https://isvbscriptdead.com/vbs-obfuscator/
  
 -	Two methods can deobfuscate this script:
  
