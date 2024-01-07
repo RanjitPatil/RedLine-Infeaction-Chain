@@ -93,7 +93,7 @@
 
 -	2nd stage PowerShell first opens Blank pdf and after then connects to the below URL and download ReadiLine Stealer and execute it.
 
-   Command Line – ***`https[://]hiqsolution[.]com`***
+   URL – ***`https[://]hiqsolution[.]com`***
 
   ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/2e102262-fb99-4f81-b5d3-6986cb33dadc)
 
