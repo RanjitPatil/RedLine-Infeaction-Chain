@@ -22,9 +22,15 @@
 
 ## Sample Collection and Preparation for Analysis :
 
+### AnyRun :
+
 > https://app.any.run/tasks/5a51d459-6caa-47dd-9b27-715ca2ec92bb/             
 
 > https://app.any.run/tasks/6212356e-6b48-4e80-b0fc-8c3dd5111e1d/
+
+### MalwareBazaar
+
+> https://bazaar.abuse.ch/sample/3086ac8861aaccdf3dc45f3b1380b6cd70169c7d9fc16f098f5a1d08736fed61/
 
 ## Analysis :
 
@@ -98,7 +104,7 @@
 
 ## IOC’s :
 
-  IOC Link – AnyRun Report (https://any.run/report/1bf287baf71f2a0872005e73399685df6b3a2b27cb2f27511deb4bdf566fbe67/5a51d459-6caa-47dd-9b27-715ca2ec92bb?_gl=1*cmzv32*_gcl_au*NjY1NzUzNzkuMTY5NzIxMzg3MA..*_ga*MTk4MTUxNzQ0LjE2NzQ4MzE3MjM.*_ga_53KB74YDZR*MTcwMzgzNjIwNy4zNy4xLjE3MDM4Mzg2MTYuMC4wLjA.).
+  IOC Link – AnyRun Report (https://any.run/report/1bf287baf71f2a0872005e73399685df6b3a2b27cb2f27511deb4bdf566fbe67/5a51d459-6caa-47dd-9b27-715ca2ec92bb?_gl=1*cmzv32*_gcl_au*NjY1NzUzNzkuMTY5NzIxMzg3MA..*_ga*MTk4MTUxNzQ0LjE2NzQ4MzE3MjM.*_ga_53KB74YDZR*MTcwMzgzNjIwNy4zNy4xLjE3MDM4Mzg2MTYuMC4wLjA)
 
 
 ## References :
