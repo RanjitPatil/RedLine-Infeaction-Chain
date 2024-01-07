@@ -107,5 +107,5 @@ AnyRun Report (https://any.run/report/1bf287baf71f2a0872005e73399685df6b3a2b27cb
 
 ## References :
 
-- 
-- 
+- CyberChef Receipes : https://github.com/Securityinbits/malware-analysis/blob/main/analysis/redline_stealer_aug_2023.md
+  
