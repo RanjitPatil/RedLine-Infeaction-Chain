@@ -1,4 +1,4 @@
-# RedLine Stealer infection chain analysis using AnyRun Sandbox
+# RedLine Stealer dropper analysis using AnyRun Sandbox
 
 ## Overview of RedLine Stealer :
 
