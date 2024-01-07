@@ -74,30 +74,30 @@
  
       2. Save the HTA content as a new file. Replace instances of 'Execute' with 'Wscript.Echo' within the resulting VBS file. Running the modified file using cscript.exe reveals the deobfuscated script.
 
-  ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/0957627c-5657-411d-9db2-9058a56f6ef4)
+    ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/0957627c-5657-411d-9db2-9058a56f6ef4)
 
 -	In the AnyRun sandbox you will get you the deobfuscated script from the following Process 3008.
 
 -	This deobfuscated hta script contains 2nd stage obfuscated PowerShell script which utilize AES decryption along with Gzip decompress and then execute using cmd.exe.
 
-  ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/336ba7ba-1ee3-40bf-b4f2-75b057854d95)
+    ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/336ba7ba-1ee3-40bf-b4f2-75b057854d95)
 
-  ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/a3591110-db01-4956-8c4c-29df047907a4)
+    ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/a3591110-db01-4956-8c4c-29df047907a4)
 
 
 -	We will dump 2nd stage PowerShell script simply writing Write-Host at the bottom of the script and execute it.
 
-  ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/70ec5fcf-f104-4422-a71e-027cfe7afca9)
+    ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/70ec5fcf-f104-4422-a71e-027cfe7afca9)
 
 -	2nd stage PowerShell first opens Blank pdf and after then connects to the below URL and download ReadiLine Stealer and execute it.
 
-   **URL –** ***`https[://]hiqsolution[.]com`***
+    **URL –** ***`https[://]hiqsolution[.]com`***
 
-  ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/2e102262-fb99-4f81-b5d3-6986cb33dadc)
+    ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/2e102262-fb99-4f81-b5d3-6986cb33dadc)
 
 -	Below snap shows the blank pdf opened after 2nd stage execution.
 
-  ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/d71d80a6-ba56-49ef-8ec3-ea3197f89e8b)
+    ![image](https://github.com/RanjitPatil/RedLine-Infeaction-Chain/assets/43460691/d71d80a6-ba56-49ef-8ec3-ea3197f89e8b)
 
 
 ## IOC’s :
